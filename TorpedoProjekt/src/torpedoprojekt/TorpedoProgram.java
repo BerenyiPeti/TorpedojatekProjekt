@@ -10,6 +10,7 @@ public class TorpedoProgram {
 
         }*/
         t.general();
+        
     }
 
 }

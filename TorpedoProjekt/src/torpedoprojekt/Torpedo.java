@@ -9,6 +9,7 @@ public class Torpedo {
     private boolean talalt;
     private int tipp;
     private String[] palya = new String[tablaHossz];
+    
 
     public Torpedo(int tipp) {
         this(7, 3, 0, false, tipp);
