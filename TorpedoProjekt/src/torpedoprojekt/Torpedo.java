@@ -45,6 +45,11 @@ public class Torpedo {
             talalt = false;
         }
         System.out.println(talalt);
+        }
+        
+        /*for (int i = 0; i < palya.length; i++) {
+            System.out.print(palya[i] + " ");
+        }*/
     }
 
-}
+
