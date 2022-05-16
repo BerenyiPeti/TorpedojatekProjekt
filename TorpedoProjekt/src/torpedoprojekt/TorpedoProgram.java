@@ -1,5 +1,7 @@
 package torpedoprojekt;
 
+import java.util.Random;
+
 public class TorpedoProgram {
 
     public static void main(String[] args) {
@@ -10,6 +12,13 @@ public class TorpedoProgram {
 
         }*/
         t.general();
+        t.elhelyez();  
+        
+        /*Random rnd = new Random();
+        for (int i = 0; i < 100; i++) {
+            int szam = rnd.nextInt(4);
+            System.out.println(szam);
+        }*/
         
         
     }
