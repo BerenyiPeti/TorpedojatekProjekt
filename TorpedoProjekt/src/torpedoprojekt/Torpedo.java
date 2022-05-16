@@ -1,6 +1,7 @@
 package torpedoprojekt;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Torpedo {
 
@@ -32,6 +33,17 @@ public class Torpedo {
         elhelyez();
         for (int i = 0; i < palya.length; i++) {
             System.out.print(palya[i] + " ");
+        }
+    }
+    
+    public void tipp(){
+        Scanner src = new Scanner(System.in);
+        int tipp = src.nextInt();
+        if (palya[tipp-1]=="X") {
+                System.out.println("talált");
+            }
+        else{
+            System.out.println("nem talált");
         }
     }
     

@@ -12,7 +12,8 @@ public class TorpedoProgram {
 
         }*/
         t.general();
-        t.elhelyez();  
+        t.elhelyez();
+        t.tipp();
         
         /*Random rnd = new Random();
         for (int i = 0; i < 100; i++) {
