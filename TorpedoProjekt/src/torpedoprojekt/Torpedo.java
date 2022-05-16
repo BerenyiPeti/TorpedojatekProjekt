@@ -21,6 +21,7 @@ public class Torpedo {
         this.talalatok = talalatok;
         this.talalt = talalt;
         this.tipp = tipp;
+        
     }
 
     public int getTablaHossz() {
